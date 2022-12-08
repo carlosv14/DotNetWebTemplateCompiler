@@ -3,6 +3,7 @@
     float b;
     string x;
     StringList arr;
+    string element;
 
     a = 5;
     b = 5.68;
@@ -15,7 +16,7 @@
 </div>
 
 <div>
-{%if a > 0 %} <b>{{ ReprintCount }}</b>{% endif %}
+{%if a > 0 %} <b>{{ b + a }}</b>{% endif %}
 </div>
 <ul>
 {-%foreach element in arr %}
