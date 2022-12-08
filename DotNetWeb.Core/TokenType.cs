@@ -40,6 +40,7 @@ namespace DotNetWeb.Core
         Pipe,
         InitKeyword,
         EndIfKeyword,
-        InKeyword
+        InKeyword,
+        BasicType
     }
 }
